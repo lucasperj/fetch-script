@@ -34,10 +34,8 @@ GREEN_BOLD="\033[1;32m"
 RESET="\033[0m"
 
 if [ -n "$TEST_FILE" ]; then
-    echo -e "${YELLOW_BOLD}If you are running a upgrade test, make sure to set the file path for the legacy repo in your test.USERNAME.properties.${RESET}"
-    echo -e "${RED_BOLD}Attention: The test will be executed with the previously configured database!${RESET}
-
-Perhaps you are interested in resetting it or configuring differently according what you are trying to reproduce.
+    echo -e "${YELLOW_BOLD}If you are running an upgrade test, make sure to set the file path for the legacy repo in your test.USERNAME.properties.${RESET}"
+    echo -e "${RED_BOLD}Note that the script is using run-selenium-tomcat-mysql 5.7 version.${RESET}
 "
 
     # Confirmation question
@@ -50,7 +48,7 @@ Perhaps you are interested in resetting it or configuring differently according 
     fi
 fi
 
-cd liferay-portal
+cd ../liferay-portal
 
 git fetch https://github.com/"${GIT_REPO}"/liferay-portal/ pull/"${GIT_ID}"/head:"${GIT_BRANCH_NAME}"
 git checkout "${GIT_BRANCH_NAME}"
