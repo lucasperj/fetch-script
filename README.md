@@ -25,15 +25,13 @@
 
 Ex Comb 1. Fetch a pull request, rebase the branch, built the bundle and run the test after everything is ready.
 ---
-![Selection_126](https://github.com/lucasperj/fetch-script/assets/52680028/c5a72154-d34a-4011-8f84-e3a3cdae818c)
----
+![example1](https://github.com/lucasperj/fetch-script/assets/52680028/2b51ff3f-bba7-40fa-9a3f-be39f00e4318)
 
 Ex Comb 2. Fetch a pull request, rebase the branch and run the test right after(without ant all the branch).
 ---
-![Selection_125](https://github.com/lucasperj/fetch-script/assets/52680028/75ae0471-a3cb-4843-87c0-ba749e87e944)
----
+![example2](https://github.com/lucasperj/fetch-script/assets/52680028/a2e90840-d065-414c-97f9-a1a3f0b69c59)
 
 Ex 3. If you want to give up running the test due to some configuration you want to change.
 ---
-![Selection_124](https://github.com/lucasperj/fetch-script/assets/52680028/f79dad14-8dc8-4095-9e62-23fd2258820b)
----
+![example3](https://github.com/lucasperj/fetch-script/assets/52680028/85959599-eeb8-48a3-800a-0d0cf50cc581)
+
